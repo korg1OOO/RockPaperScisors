@@ -1,2 +1,2 @@
-# RockPapperScisors
-Project incorporating JS on a Rock Papper Scissors game
+# RockPaperScisors
+Project incorporating JS on a Rock Paper Scissors game
