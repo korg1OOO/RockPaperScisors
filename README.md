@@ -1,8 +1,7 @@
 # RockPaperScisors
 Project incorporating JS on a Rock Paper Scissors game.
 I'm sorry for my horrendous styling, tried to do it pretty fast and focused on functionality instead of styling.
-If you have styling ideas hit me up on discord: korg1000 if I have time maybe I improve this project!
-
+If you have styling ideas or feedback about this minigame hit me up on discord: korg1000, I'll be honoured to have a talk
 # Rock
 Author: USGS
 Link: https://unsplash.com/pt-br/fotografias/9kRjMMLSPqwutm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
