@@ -3,10 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
 </head>
 <body>
+    <div id="container">
+
+        <div class="header">
+            <div class="title">Rock Paper Scissors</div>
+        </div>
+
+        <div class="main">
+            <div class="buttons">
+                <button class="rockButton">
+                    <img src="./images/rock.jpg" class="rockPhoto" alt="Rock">
+                </button>
+                <button class="paperButton">
+                    <img src="./images/paper.jpg" class="paperPhoto" alt="Paper">
+                </button>
+                <button class="scissorsButton">
+                    <img src="./images/scissors.jpg" class="scissorsPhoto" alt="Scissors">
+                </button>
+            </div>
+
+            <div class="data">
+                <div id="round"></div>
+
+                <div class="choices">
+                    <div id="playerChoice"></div>
+                    <div id="computerChoice"></div>
+                </div>
+
+                <div class="points">
+                    <div id="playerPoints"></div>
+                    <div id="computerPoints"></div>
+                </div>
+
+                <div id="result"></div>
+            </div>
+
+            <script src="app.js"></script>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">copyright korg1OOO</div>
+    </div>
 </body>
 </html>
