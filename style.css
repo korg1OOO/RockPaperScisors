@@ -1,0 +1,90 @@
+body {
+    background-color: #1D3461;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.title, .buttons, .footer {
+    display: flex;
+    justify-content: center;
+}
+
+.title, .copyright, .data {
+    font-family: Poppins, Consolas, "Courier New", monospace;
+    color: #6290C8;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+.rockButton, .paperButton, .scissorsButton {
+    margin: 0px 20px;
+}
+
+.rockButton, .paperButton, .scissorsButton {
+    width: 200px;
+    height: 200px;
+}
+
+.paperPhoto, .scissorsPhoto, .rockPhoto{
+    width: 170px;
+    height: 170px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+}
+
+#round {
+    display: flex;
+    justify-content: center;
+}
+
+#playerChoice, #computerChoice {
+    margin: 50px;
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+}
+
+.header, .footer {
+    padding: 30px;
+    margin: 0 -10px;
+    margin-top: -10px;
+}
+
+.footer {
+    padding: 15px;
+    margin: 0 -10px;
+    margin-top: auto; /* This pushes the footer to the bottom */
+    width: 100%; /* Ensure it spans the entire width */
+}
+
+button {
+    border: none;
+    background-color: #6290C8;
+}
+
+.data {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 30px;
+}
+
+.copyright {
+    font-size: 15px;
+}
