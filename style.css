@@ -3,14 +3,15 @@
 }
 
 body {
-    background-color: #2c3e50; /* Updated background color */
+    background-color: #f0f0f0; /* Light gray background */
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Poppins', sans-serif; /* Updated font family */
-    color: #ecf0f1; /* Updated text color */
+    min-width: 100vh;
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    color: #333; /* Dark gray text color */
 }
 
 .title, .buttons, .footer {
@@ -18,8 +19,16 @@ body {
     justify-content: center;
 }
 
+.title {
+    font-size: 40px; /* Increased font size for the title */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3498db; /* Blue title color */
+}
+
 .title, .copyright, .data {
-    color: #3498db; /* Updated text color */
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+    color: #555; /* Dark gray text color */
 }
 
 .buttons {
@@ -30,23 +39,24 @@ body {
     margin: 0px 20px;
     width: 200px;
     height: 200px;
-    background-color: #3498db; /* Updated button color */
+    background-color: #3498db;
     transition: background-color 0.3s ease;
 }
 
 .rockButton:hover, .paperButton:hover, .scissorsButton:hover {
-    background-color: #2980b9; /* Updated button color on hover */
+    background-color: #2980b9;
 }
 
 .paperPhoto, .scissorsPhoto, .rockPhoto {
     width: 170px;
     height: 170px;
-    border-radius: 50%; /* Make the images circular */
+    border-radius: 50%;
 }
 
 .choices {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .points {
@@ -54,30 +64,38 @@ body {
     justify-content: space-around;
 }
 
-#round, #playerChoice, #computerChoice, #result {
+#round, #result {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    color: #555; /* Dark gray text color */
+}
+
+#playerChoice, #computerChoice {
+    margin: 0 20px;
+    color: #333; /* Dark gray text color */
 }
 
 .header, .footer {
-    padding: 20px; /* Adjusted padding for header and footer */
+    padding: 20px;
     margin: 0;
 }
 
 .footer {
-    margin-top: auto;
+    background-color: #3498db;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    background-color: #34495e; /* Updated footer background color */
+    text-align: center;
+    padding: 15px 0;
 }
 
 button {
     border: none;
     cursor: pointer;
-    color: #ecf0f1; /* Updated button text color */
+    color: #fff; /* White text color */
 }
 
-/* Add media queries for responsiveness */
 @media (max-width: 600px) {
     .buttons {
         flex-direction: column;
